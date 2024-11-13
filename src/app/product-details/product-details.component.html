@@ -1,0 +1,27 @@
+
+    <div class="container " >
+        <div class="row">
+            <h2>{{products.type}}</h2>
+        </div>
+        <div class="row margin-bottom-20">
+            <div *ngFor="let prd of products.details" class="col-md-8 col-lg-4 col-sm-10">
+                
+                <mat-card class="example-card">
+                    <mat-card-title-group class="margin-10">
+                        <img class="margin-auto" mat-card-xl-image
+                            [src]="prd.filePath">
+                    </mat-card-title-group>
+                    <mat-card-content>
+                        <p>{{prd.name}}</p>
+                        <p>
+                            <span>Rs 100 per sq feet</span>
+                            <span class="float-right">
+                                <button type="button" class="btn btn-primary" (click)="addToCartFnc(prd,products.type)">Buy Now</button>
+                            </span>
+                        </p>
+                    </mat-card-content>
+                </mat-card>
+            </div>
+           
+        </div>
+    </div>

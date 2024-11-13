@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.hero_area{
+    margin: 6%;
+    padding: 3%;
+  }
+
+  .margin-top-20{
+    margin-top: 12%
+}
+.height-webkit{
+    height:-webkit-fill-available
+}
+
+
+.back-pad{
+  background-color: #f9fafa;
+  opacity: 0.8;
+  padding: 22px;
+}

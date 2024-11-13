@@ -1,0 +1,6 @@
+.menu-spacer {
+    flex: 1 1 auto;
+  }
+  .mat-drawer-container,.mat-drawer-backdrop.mat-drawer-shown {
+    background-color:unset;
+  }

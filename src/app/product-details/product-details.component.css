@@ -1,0 +1,15 @@
+.example-card {
+    max-width: 400px;
+    margin-bottom: 8px;
+  }
+
+  .margin-auto{
+    margin: auto !important;
+  }
+
+  .float-right{
+    float: right;
+}
+.margin-bottom-20{
+  margin-bottom: 10% !important;
+}
